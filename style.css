@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif ;
-    background-color: whitesmoke(40, 91%, 91%);
+    background-color: whitesmoke;
     color: black;
     font-size: 20px;
 }
@@ -107,19 +107,20 @@ a:hover {
 
 .btn-primary:hover {
     background-color: #780000;
+    color: white;
 }
 
 .btn-outline {
-  border: 1.5px solid #C1121F;
-  color: #C1121F;
+  border: 1.5px solid #669bbc;
+  color: #003049;
   background: none;
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
 }
 
 .btn-outline:hover {
-  background-color: #111;
-  color: white;
+  background-color: #669BBC;
+  color: #003049;
 }
 
 .hero-image img {
@@ -304,7 +305,7 @@ footer .social a {
 }
 
 footer .social img {
-  filter: grayscale(100%);
+  filter: saturate(100%);
   transition: filter 0.3s ease;
   height: 24px;
   width: 24px;
