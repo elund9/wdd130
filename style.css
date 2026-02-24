@@ -313,41 +313,4 @@ footer .social img {
 
 footer .social img:hover {
   filter: none;
-}
-
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-image {
-    margin-top: 2rem;
-  }
-
-  .features-grid {
-    flex-direction: column;
-  }
-
-  .features-grid > div {
-    margin-bottom: 2rem;
-  }
-
-  .aboutme-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .aboutme-image img {
-    max-width: 100%;
-  }
-
-  .info-form {
-    flex-direction: column;
-  }
-
-  .info-form input,
-  .info-form button {
-    width: 100%;
-  }
-}
+} 
