@@ -4,60 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethan Lund Portal Page</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Portal Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Space+Grotesk&family=Sora&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="wwr/index.html">White Water Rafting Website</a>
-            <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-            <a href="ice/prophet_cards/prophet_cards/nelson.html">ICE</a>
-            <a href="aboutme.html">Personal Website</a>
-        </nav>
+    <header class="site-header">
+        <div class="container nav-content">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home or Main index file</a></li>
+                    <li><a href="wwr/site-plan-rafting.html">wwr</a></li>
+                    <li><a href="ice.html">Ice</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
 
-        <section id="blue">
-            <h2>Cool content</h2>
-            <img src="https://picsum.photos/500" alt="sample image">
-            <p>Lorem ipsum dolor sit amet</p>
-        </section>
+    <section class="hero">
+        <div class="container hero-content">
 
-        <section id="green">
-            <h2>Cool content</h2>
-            <img src="https://picsum.photos/500" alt="sample image">
-            <p>Lorem ipsum dolor sit amet</p>
-        </section>
+            <div class="hero-text">
+                <h1>My name is Ethan Lund</h1>
+                <p> I am a student at BYU-Idaho and I am studying Cybersecruity. A few of my hobbies are playing the guitar and cello, hanging out with friends, playing sports, and woodworking.</p>
 
-        <section id="red">
-            <h2>Cool content</h2>
-            <img src="https://picsum.photos/500" alt="sample image">
-            <p>Lorem ipsum dolor sit amet</p>
-        </section>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Photos of me</a>
+                    <a href="#" class="btn btn-outline">More information about me</a>
+                </div>
+            </div>
 
+            <div class="hero-image">
+                <img src="images/Logo of E.png" alt="Logo">
+            </div>
 
-        <section id="about">
-            <h2>
-                Ethan Lund Portal Page
-            </h2>
-            <img src="images/shoulder to head pic for I card.jpg" alt="pic of me" width="500">
+        </div>
+    </section>
 
-            <p>
-                This is a picture of me for BYUI.
-            </p>
-            <p>
-                I am excited to learn
-            </p>
-            <p>
-                ethan lund -wdd130
-            </p>
-        </section>
-    </main>
-    <footer>
+    <section id="features" class="features">
+        <div class="container features-grid">
 
-    </footer>
-</body>
+            <table>
+                <tr>
+                    <td>
+                        <div class="Home-card">
+                            <div class="icon"></div>
+                            <h3>Home Page</h3>
+                            <p>My main page for other webpages I have made</p>
+                        </div>
+                    </td>
 
-</html>
+                    <td>
+                        <div class="wwr-card">
+                            <div class="icon"></div>
+                            <h3>White water rafting</h3>
+                            <p>A white water rafting webpage</p>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="ice-card">
+                            <div class="icon"></div>
+                            <h3>ICE</h3>
+                            <p>Some of my in class webpages</p>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="aboutme" class="aboutme">
+        <div class="container aboutme-content">
+
+            <div class="aboutme-text">
+                <h2>About me</h2>
+                <p>I am 20 years old. This is my first year at BYU-Idaho. I am from San Antonio Texas, and I served a
+                    mission in the Dominican Republic</p>
+            </div>
+
+            <div class="aboutme-image">
+                <img src="images/shoulder to head pic for I card.jpg" alt="BYU-Idaho pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="quotel">
+        <div class="">
+            <blockquote>
+                "Patience means active waiting and enduring. It means staying with something and doing all that we
+                can—working, hoping, and exercising faith; bearing hardship with fortitude, even when the desires of our
+                hearts are delayed. Patience is not simply enduring; it is enduring well!"
+            </blockquote>
+            <p class="Uchtdorf">Elder Dieter F. Uchtdorf</p>
+        </div>
+    </section>
